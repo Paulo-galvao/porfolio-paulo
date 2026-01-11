@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <!-- JavaScript -->
+    <script src="js/animations.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/navigate.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/card.js" type="module" defer></script>
+    <script src="js/projects.js" type="module" defer></script>
+
+    <!-- ICONS -->
+    <link href='https://cdn.boxicons.com/3.0.7/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfólio</title>
+</head>
+<body>
+    
+    <nav>
+        <span>Portfólio</span>
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+            <ul class="menu-options">
+                <li data-btn="profile">Perfil</li>
+                <li data-btn="projects">Projetos</li>
+                <li data-btn="contact">Contatos</li>
+            </ul>
+    </nav>
+
+    <section id="profile">
+        <div class="section-content move profile-section">
+            
+            <div class="profile-box">
+                <div class="profile-frame">
+                    <img src="images/me.jpg" alt="paulo galvão">
+                </div>
+                <div class="profile-name">
+                    <p>Olá, eu sou <span class="name">Paulo Galvão</span></p>
+                    <p class="profile-job">Desenvolvedor Web</p>
+                </div>
+            </div>
+
+            
+            <div class="profile-skills">
+                <ul>
+                    <li>
+                        <img src="images/icons/html.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/css.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/js.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/react.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/node.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/sql.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icons/laravel.png" alt="">
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="profile-description">
+                <h2>Sobre mim</h2>
+                <p>Sou Desenvolvedor Web com foco em back-end - NodeJS, PostgreSQL. Também tenho vivência com front-end utilizando Html, Css e JS vanilla, além de React. Além disso tenho projetos usando o ecossistema Php com Framework Laravel.</p>
+                <p>Já desenvolvi projetos pessoais envolvendo Api's Rest, autenticação, validação e integração com banco de dados.</p>
+                <p>Atualmente busco minha primeira oportunidade no mercado de tecnologia e posso contribuir para projetos reais.</p>
+            </div>
+
+        
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content projects-section">
+            <h2>Projetos</h2>
+            <div class="card-box">
+                <!-- <div class="card">
+                    <h3 class="card-title">Site maneiro</h3>
+                    <ul class="card-skills">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Js</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Produzindo água</h3>
+                <i class='bx  bx-x'></i> 
+            </div>
+            <div class="modal-options">
+                <a href="">
+                    <button>
+                        <span>Acesse Online</span>
+                    </button>
+                </a>
+                <a href="">
+                    <button>Codigo Fonte</button>
+                </a>
+            </div>
+            <div class="modal-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
+                    accusantium atque ut ab, ipsa maxime repellendus, 
+                    enim consectetur quos inventore. Rerum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
+                    accusantium atque ut ab, ipsa maxime repellendus, 
+                    enim consectetur quos inventore. Rerum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
+                    accusantium atque ut ab, ipsa maxime repellendus, 
+                    enim consectetur quos inventore. Rerum.
+                </p>
+            </div>
+            <div class="modal-stack">
+                <h4>Ferramentas</h4>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>js</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="contact">
+        <div class="section-content contact-section">
+            <h2>Contatos</h2>
+
+            <div class="contact-info">
+                <a href="https://github.com/Paulo-galvao">
+                    <div class="contact-item">
+                        <img src="images/icons/github.png" alt="">
+                        <span>@Paulo-galvao</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/paulo-galv%C3%A3o-1b0bb7250/">
+                    <div class="contact-item">
+                        <img src="images/icons/linkedin.png" alt="">
+                        <span>Paulo Galvao</span>
+                    </div>
+                </a>
+                <a href="https://wa.me/5542998562378">
+                    <div class="contact-item">
+                        <img src="images/icons/phone.png" alt="">
+                        <span>(42) 998562378</span>
+                    </div>
+                </a>
+                <a href="mailto:paulogalvaoj21@gmail.com">
+                    <div class="contact-item">
+                        <img src="images/icons/email.png" alt="">
+                        <span>paulogalvaoj21@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body> 
+</html>

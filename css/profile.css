@@ -1,0 +1,69 @@
+#profile {
+    height: 100dvh;
+    padding-top: 60px;
+    display: flex;
+}
+
+.profile-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.profile-name {
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.profile-job {
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-top: .2rem;
+}
+
+.profile-frame {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-description {
+    color: #bbb;
+
+}
+
+.profile-description h2 {
+    padding-bottom: 1rem;
+
+}
+
+.profile-skills ul {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.profile-skills img {
+    width: 2rem;
+}
