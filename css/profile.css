@@ -23,7 +23,7 @@
 .profile-box {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    justify-content: space-between;
 }
 
 
@@ -31,7 +31,7 @@
 .profile-name {
     color: #fff;
     font-size: 1.5rem;
-    
+    max-width: 50%;
 }
 
 .profile-job {
@@ -44,8 +44,8 @@
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .profile-description {
