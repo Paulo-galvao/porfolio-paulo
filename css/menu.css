@@ -10,7 +10,7 @@ nav {
     z-index: 2;
 }
 
-li {
+nav li {
     list-style: none;
     cursor: pointer;
 }

@@ -62,8 +62,23 @@
     display: flex;
     justify-content: center;
     gap: .5rem;
+    list-style: none;
 }
 
 .profile-skills img {
     width: 2rem;
+}
+
+@media screen and (min-width: 767px) {
+    .profile-frame {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-name {
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    
 }

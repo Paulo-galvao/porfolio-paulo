@@ -6,7 +6,7 @@ export const projects = [
         link: "https://projetoproduzindoagua.netlify.app/",
         repository: "https://github.com/Paulo-galvao/produzindo-agua/tree/master",
         content: `
-            Desenvovlvido para documentar as atividades 
+            Desenvolvido para documentar as atividades 
             do projeto de extensão Desenvolvendo Água do curso de 
             Geografia da UEPG. Totalmente responsivo, simples mas com 
             funcionalides bem definidas. Grande ponto forte é o seu slide 
