@@ -2,7 +2,7 @@ export const projects = [
     {
         title: "Produzindo água",
         background: "/images/projects/produzindoagua.png",
-        stack: ["Html", "Css", "Javascript"],
+        stack: ["Html", "Css", "JavaScript"],
         link: "https://projetoproduzindoagua.netlify.app/",
         repository: "https://github.com/Paulo-galvao/produzindo-agua/tree/master",
         content: `
@@ -15,55 +15,30 @@ export const projects = [
         `
     },
     {
-        title: "Site de cria",
-        background: "/images/background.jpg",
-        stack: ["Html", "Php", "Node", "Postgresql"],
+        title: "Sistema de Gerenciamento de Chamados",
+        background: "/images/projects/chamados-2.png",
+        stack: ["Php", "Laravel", "Sqlite"],
         link: "#",
-        repository: "#",
+        repository: "https://github.com/Paulo-galvao/gerenciamento_de_chamados",
         content: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
-            accusantium atque ut ab, ipsa maxime repellendus, 
-            enim consectetur quos inventore. Rerum.
+            O sistema permite a criação, atendimento e exclusão de chamados.
+            Cada chamado deve receber um título, descrição e categoria a qual pertence.
+            Ao ser criado cada chamado já recebe a data de criação, data de resolução, prazo de solução e inicia com "situação" novo.
+            O prazo de solução é três dias após a data de criação.
+            Na página inicial é mostrado qual a procentagem de chamados resolvidos dentro do prazo no mês.
         `
     },
     {
-        title: "Site daora",
-        background: "/images/background.jpg",
-        stack: ["Html", "Css", "Javascript"],
-        link: "#",
-        repository: "#",
+        title: "ReadMoreBooks",
+        background: "/images/projects/readmore.png",
+        stack: ["Node", "React", "Postgresql"],
+        link: "https://readmorebooks.netlify.app/",
+        repository: "https://github.com/Paulo-galvao/Biblioteca_FrontEnd",
         content: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
-            accusantium atque ut ab, ipsa maxime repellendus, 
-            enim consectetur quos inventore. Rerum.
-        `
-    },
-    {
-        title: "Site do barulho",
-        background: "/images/background.jpg",
-        stack: ["Html", "Css", "Javascript"],
-        link: "#",
-        repository: "#",
-        content: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
-            accusantium atque ut ab, ipsa maxime repellendus, 
-            enim consectetur quos inventore. Rerum.
-        `
-    },
-    {
-        title: "Site ",
-        background: "/images/background.jpg",
-        stack: ["Html", "Css", "Javascript"],
-        link: "#",
-        repository: "#",
-        content: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem fugiat quaerat quo ea itaque corporis repudiandae eos quas, 
-            accusantium atque ut ab, ipsa maxime repellendus, 
-            enim consectetur quos inventore. Rerum.
+            Projeto fullstack de biblioteca virtual que permite usuários cadastrar e avaliar livros.
+            Possui forte validação de dados e segurança com autenticação/autorização de rotas, além de encriptação de senha com bcrypt e token com JWT.
+            Utilizei os serviços Render, NeonDb e Netlify para ter tudo funcionado online apenas usando os planos gratuitos dessas plataformas.
+
         `
     },
 ];

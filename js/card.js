@@ -24,7 +24,7 @@ function insertCards() {
         
         project.stack.forEach( (skill) => {
             const li = document.createElement("li");
-            li.innerText = skill;
+            li.innerHTML = skill;
             list.appendChild(li);
         });
         
@@ -81,7 +81,6 @@ function createModal() {
                 const modal = document.createElement("div");
                 const ul = document.createElement("ul");
                 const data = e.currentTarget.dataset;
-                console.log(data);
                 const stack = data.stack.split(",")
                 
                 stack.forEach( (s) => {
